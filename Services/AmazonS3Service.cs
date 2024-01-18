@@ -15,8 +15,8 @@ namespace Api_S3_AWS.Services
 
         public AmazonS3Service()
         {
-            AwsKeyID = "AKIAWVZBCSJWDJZGCEHB";
-            AwsPrivateKey = "0prtUvOCv71JlMbAHmuKx81NDq6ek6Os5YX3Z7l7";
+            AwsKeyID = "";
+            AwsPrivateKey = "";
             CredentialsAws = new BasicAWSCredentials(AwsKeyID, AwsPrivateKey);
 
             var config = new AmazonS3Config
